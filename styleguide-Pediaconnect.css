@@ -176,10 +176,14 @@
       /* MARK: Font */
       @font-face {
          font-family:"Tasa-Orbiter";
-         src: url(folder/TASAOrbiter-Regular.ttf);  /* Regular Font */
+         src: url(folder/TASAOrbiter-Regular.ttf);  /* Regular */
+         src: url(folder/TASAOrbiter-SemiBold.ttf); /* SemiBold */
+         src: url(folder/TASAOrbiter-Bold.ttf); /* Bold */
       }
       /* Formulier elementen */
       /* MARK: Formulier */
 
+     
    }
 }
+
