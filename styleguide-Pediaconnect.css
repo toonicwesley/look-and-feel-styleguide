@@ -175,8 +175,8 @@
       /* Typografie */
       /* MARK: Font */
       @font-face {
-         font-family: ;
-         src: url();
+         font-family:"Tasa-Orbiter";
+         src: url(folder/TASAOrbiter-Regular.ttf);  /* Regular Font */
       }
       /* Formulier elementen */
       /* MARK: Formulier */
