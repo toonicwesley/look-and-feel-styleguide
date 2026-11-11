@@ -217,38 +217,27 @@
          src: url(assets/TASAOrbiter-ExtraBold.ttf); /* ExtraBold, weight: 800 */
          font-weight: 800;
       } 
-      
-      
-      /* Moet nog ingevuld worden */
-      /* h1{
-       src: url(assets/TASAOrbiter-SemiBold.ttf);
-       font-size: ;  
+
+      p{
+         font-weight: 400;
+         font-size: 4px;
+      }
+
+      h1{
+       font-weight: 500;
+       font-size: 5.5px ;  
       }
 
       h2{
-         src: ;
-         font-size: ;
+         font-weight: 600;
+         font-size: 4.5px  ;
       }
 
       h3{
-         src: ;
-         font-size: ;
-      }
-      }
-      /* h1{
-       src: url(assets/TASAOrbiter-SemiBold.ttf);
-       font-size: ;  
+         font-weight: 600;
+         font-size: 4.5px;
       }
 
-      h2{
-         src: ;
-         font-size: ;
-      }
-
-      h3{
-         src: ;
-         font-size: ;
-      } */
       /* Kleuren buttons */
 
       /* Kleuren icons */
