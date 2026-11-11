@@ -173,7 +173,6 @@
       --card-background: light-dark(var(--white), var(--l500-night-rider));
       
       /* Kleuren typografie */
-      color-scheme: light dark;
       --text-default: light-dark (var(--base-night-rider), var(--base-bleached-silk)); /* Van donkere tekst naar witte tekst met dark mode */
       --card-colleague-green: light-dark (var(--d600-cockatoo), var(--d600-cockatoo))
       --card-colleague-blue: light-dark(var(--d600-xavier-blue), var(--d600-xavier-blue))
@@ -183,17 +182,35 @@
       /* MARK: Font */
       @font-face {
          font-family:"Tasa-Orbiter";
-         src: url(assets/TASAOrbiter-Regular.ttf);  /* Regular */
-         src: url(assets/TASAOrbiter-SemiBold.ttf); /* SemiBold */
-         src: url(assets/TASAOrbiter-Bold.ttf); /* Bold */
+         fallback: sans-serif;
+         src: url(assets/TASAOrbiter-Regular.ttf);  /* Regular, weight: 400, size: 4px (in Figma 16px) */
+         src: url(assets/TASAOrbiter-SemiBold.ttf); /* SemiBold, weight: 600, size 4.5px (In Figma 18px)*/
+         src: url(assets/TASAOrbiter-Medium.ttf); /* Medium, weight: 500, size: 5.5px (in Figma 22px) */
+         src: url(assets/TASAOrbiter-Bold.ttf); /* Bold, weight: 700*/
+         src: url(assets/TASAOrbiter-ExtraBold.ttf) /* ExtraBold, weight: 800 */
+      }
+      h1{
+       src: url(assets/TASAOrbiter-SemiBold.ttf);
+       font-size: ;  
       }
 
+      h2{
+         src: ;
+         font-size: ;
+      }
+
+      h3{
+         src: ;
+         font-size: ;
+         color: dark;
+      }
       /* Kleuren buttons */
 
+      /* Kleuren icons */
+      
       /* Formulier elementen */
       /* MARK: Formulier */
-
-     
+      
    }
 }
 
