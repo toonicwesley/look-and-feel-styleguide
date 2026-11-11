@@ -173,9 +173,13 @@
       --card-background: light-dark(var(--white), var(--l500-night-rider));
 
       /* Typografie */
-
-
+      /* MARK: Font */
+      @font-face {
+         font-family: ;
+         src: url();
+      }
       /* Formulier elementen */
+      /* MARK: Formulier */
 
    }
 }
