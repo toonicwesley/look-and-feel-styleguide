@@ -171,15 +171,25 @@
       --footer-background: light-dark(var(--white), var(--d100-eclipse));
       --section-nav-background: light-dark(var(--l900-bleached-silk), var(--d100-eclipse));
       --card-background: light-dark(var(--white), var(--l500-night-rider));
+      
+      /* Kleuren typografie */
+      color-scheme: light dark;
+      --text-default: light-dark (var(--base-night-rider), var(--base-bleached-silk)); /* Van donkere tekst naar witte tekst met dark mode */
+      --card-colleague-green: light-dark (var(--d600-cockatoo), var(--d600-cockatoo))
+      --card-colleague-blue: light-dark(var(--d600-xavier-blue), var(--d600-xavier-blue))
+      --card-colleague-pink: light-dark(var(--d600-lustful-wishes), var(--d600-lustful-wishes))
 
       /* Typografie */
       /* MARK: Font */
       @font-face {
          font-family:"Tasa-Orbiter";
-         src: url(folder/TASAOrbiter-Regular.ttf);  /* Regular */
-         src: url(folder/TASAOrbiter-SemiBold.ttf); /* SemiBold */
-         src: url(folder/TASAOrbiter-Bold.ttf); /* Bold */
+         src: url(assets/TASAOrbiter-Regular.ttf);  /* Regular */
+         src: url(assets/TASAOrbiter-SemiBold.ttf); /* SemiBold */
+         src: url(assets/TASAOrbiter-Bold.ttf); /* Bold */
       }
+
+      /* Kleuren buttons */
+
       /* Formulier elementen */
       /* MARK: Formulier */
 
