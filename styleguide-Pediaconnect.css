@@ -178,7 +178,7 @@
 
       --background-pink-light: light-dark(var(--l600-lustful-wishes), var(--d600-lustful-wishes));
       --background-green-light: light-dark(var(--l600-cockatoo), var(--d600-cockatoo));
-      --background-blue: light-dark(var(--l100-xavier-blue), var(--d100-xavier-blue));
+      --background-blue-light: light-dark(var(--l100-xavier-blue), var(--d100-xavier-blue));
       
       --card-border: light-dark(var(--d100-bleached-silk), var(--d100-eclipse));
       /* color-scheme set rainbow buttons*/
