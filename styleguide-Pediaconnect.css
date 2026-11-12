@@ -155,31 +155,52 @@
       /* color-scheme set */
       color-scheme: light dark;
 
+      /* color-scheme background */
+      --site-background: light-dark(var(--base-bleached-silk), var(--base-eclipse));
+      --footer-background: light-dark(var(--white), var(--d100-eclipse));
+
+      /* color-scheme icons set */
       --icon-light: light-dark(var(--white), var(--l500-night-rider));
-      --icon-medium: light-dark(var(--d300-bleached-silk), var(--d100-night-rider));
+      --icon-medium: light-dark(var(--d300-bleached-silk), var(--d200-night-rider));
       --icon-dark: light-dark(var(--base-night-rider), var(--base-bleached-silk));
 
+      --icon-light-blue: light-dark(var(--d100-xavier-blue), var(--d400-xavier-blue));
+      --icon-light-green: light-dark(var(--d100-cockatoo), var(--d300-cockatoo));
+      --icon-light-pink: light-dark(var(--d100-lustful-wishes), var(--d200-lustful-wishes));
+
+      --icon-dark-blue: light-dark(var(--d400-xavier-blue), var(--l600-xavier-blue));
+      --icon-dark-green: light-dark(var(--d600-cockatoo), var(--l600-cockatoo));
+      --icon-dark-pink: light-dark(var(--d600-lustful-wishes), var(--d100-lustful-wishes));
+
+      --background-pink:light-dark(var(--base-lustful-wishes), var(--d400-cockatoo)); 
+      --background-green: light-dark(var(--base-cockatoo), var(--d400-cockatoo));
+      --background-blue: light-dark(var(--base-xavier-blue), var(--d400-xavier-blue));
+
+      --background-pink-light: light-dark(var(--l600-lustful-wishes), var(--d600-lustful-wishes));
+      --background-green-light: light-dark(var(--l600-cockatoo), var(--d600-cockatoo));
+      --background-blue: light-dark(var(--l100-xavier-blue), var(--d100-xavier-blue));
+      
+      --card-border: light-dark(var(--d100-bleached-silk), var(--d100-eclipse));
+      /* color-scheme set rainbow buttons*/
       --button-rainbow-green: light-dark(var(--l600-cockatoo), var(--d600-cockatoo));
       --button-rainbow-pink: light-dark(var(--l600-lustful-wishes), var(--d600-lustful-wishes));
       --button-rainbow-blue: light-dark(var(--l600-xavier-blue), var(--d600-xavier-blue));
 
-      --nav-button-rainbow-hover-green: light-dark(var(--base-cockatoo), var(--base-cockatoo));
-      --nav-button-rainbow-hover-pink: light-dark(var(--base-lustful-wishes), var(--base-lustful-wishes));
-      --nav-button-rainbow-hover-blue: light-dark(var(--base-xavier-blue), var(--base-xavier-blue));
+      /* color-scheme set hover */
+      --button-hover-shadow: light-dark(var(--d200-bleached-silk), var(--d800-bleached-silk));
 
-      --site-background: light-dark(var(--base-bleached-silk), var(--base-eclipse));
-      --footer-background: light-dark(var(--white), var(--d100-eclipse));
-      --section-nav-background: light-dark(var(--l900-bleached-silk), var(--d100-eclipse));
-      --card-background: light-dark(var(--white), var(--l500-night-rider));
-      
       /* Kleuren typografie */
       --text-default: light-dark (var(--base-night-rider), var(--base-bleached-silk)); /* Van donkere tekst naar witte tekst met dark mode */
-      --card-colleague-green: light-dark (var(--d600-cockatoo), var(--d600-cockatoo))
-      --card-colleague-blue: light-dark(var(--d600-xavier-blue), var(--d600-xavier-blue))
-      --card-colleague-pink: light-dark(var(--d600-lustful-wishes), var(--d600-lustful-wishes))
+      --text-green: light-dark (var(--d600-cockatoo), var(--d600-cockatoo)); 
+      --text-blue: light-dark(var(--d600-xavier-blue), var(--d600-xavier-blue));
+      --text-pink: light-dark(var(--d600-lustful-wishes), var(--d600-lustful-wishes));
       
-      /* Typografie */
-      font-family: 'TASA Orbiter', sans-serif;
+
+      body {
+      background-color: var(   --base-bleached-silk);
+   }
+         /* Typografie */
+      font-family: 'TASA Orbiter', sans-serif;  
    }
 }
       
@@ -230,20 +251,14 @@
 
       h2{
          font-weight: 600;
-         font-size: 4.5px  ;
+         font-size: 4.5px ;
       }
 
       h3{
          font-weight: 600;
          font-size: 4.5px;
       }
-
-      /* Kleuren buttons */
-
-      /* Kleuren icons */
-      
-      /* Formulier elementen */
-      /* MARK: Formulier */
+   
       
    
 
