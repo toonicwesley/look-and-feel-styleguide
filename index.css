@@ -5,7 +5,6 @@
    https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers
    https://css-tricks.com/css-cascade-layers/ */
 
-   
 @layer generiek {
 
   html, body {
@@ -16,7 +15,6 @@
     max-width: 40em;
     margin: auto;
     background: #fff;
-    
   }
 
   nav:not([class]),
@@ -24,7 +22,6 @@
   h2:not([class]),
   p:not([class]),
   figcaption:not([class]) {
-    font-family: sans-serif;
     line-height: 1.5;
   }
 
@@ -57,24 +54,8 @@
       place-items: center;
       border-radius: 50%;
       aspect-ratio: 1;
+      background: #ccc;
     }
   }
-    .blue {
-      background-color: #66b3df;
-      color: white;
-    }
-    .green {
-      background-color: #66c7b4;
-      color: white;
-    }
-    .pink {
-      background-color: #d6439f;
-      color: white;
-    }
-    .other {
-      background-color: #322f2f;
-      color: white;
-    }
-
 
 }
