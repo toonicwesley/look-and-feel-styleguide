@@ -57,8 +57,24 @@
       place-items: center;
       border-radius: 50%;
       aspect-ratio: 1;
-      background: #ccc;
     }
   }
+    .blue {
+      background-color: #66b3df;
+      color: white;
+    }
+    .green {
+      background-color: #66c7b4;
+      color: white;
+    }
+    .pink {
+      background-color: #d6439f;
+      color: white;
+    }
+    .other {
+      background-color: #322f2f;
+      color: white;
+    }
+
 
 }

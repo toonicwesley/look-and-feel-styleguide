@@ -258,7 +258,16 @@
          font-weight: 600;
          font-size: 4.5px;
       }
-   
+
+      .blue {
+         background-color: #66b3df;  
+         color: white;  
+      }
+      .pink {
+         background-color: #66c7b4;
+         color: white;
+      }
+      
       
    
 
