@@ -181,9 +181,14 @@
       
       --card-border: light-dark(var(--d100-bleached-silk), var(--d100-eclipse));
       /* color-scheme set rainbow buttons*/
-      --button-rainbow-green: light-dark(var(--l600-cockatoo), var(--d600-cockatoo));
-      --button-rainbow-pink: light-dark(var(--l600-lustful-wishes), var(--d600-lustful-wishes));
-      --button-rainbow-blue: light-dark(var(--l600-xavier-blue), var(--d600-xavier-blue));
+      --button-rainbow-green:hsl(168 47% 84%);
+      --button-rainbow-pink: hsl(322 65% 82%);
+      --button-rainbow-blue: hsl(201 65% 85%);
+
+      /* color-scheme set rainbow buttons dark mode*/
+      --button-rainbow-green-dark:hsl(from var(--button-rainbow-green) h s calc(l - 50));
+      --button-rainbow-pink-dark:hsl(from var(--button-rainbow-pink) h s calc(l - 50));
+      --button-rainbow-blue-dark:hsl(from var(--button-rainbow-blue) h s calc(l - 50));
 
       /* color-scheme set hover */
       --button-hover-shadow: light-dark(var(--d200-bleached-silk), var(--d800-bleached-silk));
