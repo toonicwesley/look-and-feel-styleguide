@@ -10,149 +10,147 @@
    /* Kleuren */
    :root {
       /* MARK: colors */
-      --base-xavier-blue: #66b3df;
-      --base-cockatoo: #66c7b4;
-      --base-lustful-wishes: #d6439f;
-      --base-night-rider: #322f2f;
-      --base-bleached-silk: #f2f2f2;
-      --base-eclipse: #3f3b3b;
+      --base-xavier-blue: hsl(202, 65%, 64%);
+      --base-cockatoo: hsl(168, 46%, 59%);
+      --base-lustful-wishes: hsl(322, 64%, 55%);
+      --base-night-rider: hsl(0, 3%, 19%);
+      --base-bleached-silk: hsl(0, 0%, 95%);
+      --base-eclipse: hsl(0, 3%, 24%);
 
       /* xavier-blue darker shades */
-      --d100-xavier-blue: #5ca1c9;
-      --d200-xavier-blue: #528fb2;
-      --d300-xavier-blue: #477d9c;
-      --d400-xavier-blue: #3d6b86;
-      --d500-xavier-blue: #335a70;
-      --d600-xavier-blue: #294859;
-      --d700-xavier-blue: #1f3643;
-      --d800-xavier-blue: #14242d;
-      --d900-xavier-blue: #0a1216;
+      --d100-xavier-blue: hsl(202, 50%, 57%);
+      --d200-xavier-blue: hsl(202, 38%, 51%);
+      --d300-xavier-blue: hsl(202, 37%, 45%);
+      --d400-xavier-blue: hsl(202, 37%, 38%);
+      --d500-xavier-blue: hsl(202, 37%, 32%);
+      --d600-xavier-blue: hsl(201, 37%, 25%);
+      --d700-xavier-blue: hsl(202, 37%, 19%);
+      --d800-xavier-blue: hsl(202, 38%, 13%);
+      --d900-xavier-blue: hsl(200, 38%, 6%);
 
       /* xavier-blue lighter shades */
-      --l100-xavier-blue: #75bbe2;
-      --l200-xavier-blue: #85c2e5;
-      --l300-xavier-blue: #94cae9;
-      --l400-xavier-blue: #a3d1ec;
-      --l500-xavier-blue: #b3d9ef;
-      --l600-xavier-blue: #c2e1f2;
-      --l700-xavier-blue: #d1e8f5;
-      --l800-xavier-blue: #e0f0f9;
-      --l900-xavier-blue: #f0f7fc;
+      --l100-xavier-blue: hsl(201, 65%, 67%);
+      --l200-xavier-blue: hsl(202, 65%, 71%);
+      --l300-xavier-blue: hsl(202, 66%, 75%);
+      --l400-xavier-blue: hsl(202, 66%, 78%);
+      --l500-xavier-blue: hsl(202, 65%, 82%);
+      --l600-xavier-blue: hsl(201, 65%, 85%);
+      --l700-xavier-blue: hsl(202, 64%, 89%);
+      --l800-xavier-blue: hsl(202, 68%, 93%);
+      --l900-xavier-blue: hsl(205, 67%, 96%);
 
       /* cockatoo darker shades */
-      --d100-cockatoo: #5cb3a2;
-      --d200-cockatoo: #529f90;
-      --d300-cockatoo: #478b7e;
-      --d400-cockatoo: #3d776c;
-      --d500-cockatoo: #33645a;
-      --d600-cockatoo: #295048;
-      --d700-cockatoo: #1f3c36;
-      --d800-cockatoo: #142824;
-      --d900-cockatoo: #0a1412;
+      --d100-cockatoo: hsl(168, 36%, 53%);
+      --d200-cockatoo: hsl(168, 32%, 47%);
+      --d300-cockatoo: hsl(169, 32%, 41%);
+      --d400-cockatoo: hsl(169, 32%, 35%);
+      --d500-cockatoo: hsl(168, 32%, 30%);
+      --d600-cockatoo: hsl(168, 32%, 24%);
+      --d700-cockatoo: hsl(168, 32%, 18%);
+      --d800-cockatoo: hsl(168, 33%, 12%);
+      --d900-cockatoo: hsl(168, 33%, 6%);
 
       /* cockatoo lighter shades */
-      --l100-cockatoo: #75cdbc;
-      --l200-cockatoo: #85d2c3;
-      --l300-cockatoo: #94d8cb;
-      --l400-cockatoo: #a3ddd2;
-      --l500-cockatoo: #b3e3da;
-      --l600-cockatoo: #c2e9e1;
-      --l700-cockatoo: #d1eee9;
-      --l800-cockatoo: #e0f4f0;
-      --l900-cockatoo: #f0f9f8;
+      --l100-cockatoo: hsl(168, 47%, 63%);
+      --l200-cockatoo: hsl(168, 46%, 67%);
+      --l300-cockatoo: hsl(169, 47%, 71%);
+      --l400-cockatoo: hsl(169, 46%, 75%);
+      --l500-cockatoo: hsl(169, 46%, 80%);
+      --l600-cockatoo: hsl(168, 39%, 84%);
+      --l700-cockatoo: hsl(168, 41%, 88%);
+      --l800-cockatoo: hsl(168, 44%, 92%);
+      --l900-cockatoo: hsl(168, 43%, 96%);
 
       /* lustful-wishes darker shades */
-      --d100-lustful-wishes: #c13c8f;
-      --d200-lustful-wishes: #ab367f;
-      --d300-lustful-wishes: #962f6f;
-      --d400-lustful-wishes: #80285f;
-      --d500-lustful-wishes: #6b2250;
-      --d600-lustful-wishes: #561b40;
-      --d700-lustful-wishes: #401430;
-      --d800-lustful-wishes: #2b0d20;
-      --d900-lustful-wishes: #150710;
+      --d100-lustful-wishes: hsl(324, 53%, 50%);
+      --d200-lustful-wishes: hsl(324, 52%, 44%);
+      --d300-lustful-wishes: hsl(324, 52%, 39%);
+      --d400-lustful-wishes: hsl(324, 52%, 33%);
+      --d500-lustful-wishes: hsl(324, 52%, 28%);
+      --d600-lustful-wishes: hsl(324, 52%, 22%);
+      --d700-lustful-wishes: hsl(324, 52%, 16%);
+      --d800-lustful-wishes: hsl(324, 53%, 11%);
+      --d900-lustful-wishes: hsl(324, 54%, 5%);
 
       /* lustful-wishes lighter shades */
-      --l100-lustful-wishes: #da56a9;
-      --l200-lustful-wishes: #de69b2;
-      --l300-lustful-wishes: #e27bbc;
-      --l400-lustful-wishes: #e68ec5;
-      --l500-lustful-wishes: #eba1cf;
-      --l600-lustful-wishes: #efb4d9;
-      --l700-lustful-wishes: #f3c7e2;
-      --l800-lustful-wishes: #f7d9ec;
-      --l900-lustful-wishes: #fbecf5;
+      --l100-lustful-wishes: hsl(324, 63%, 60%);
+      --l200-lustful-wishes: hsl(324, 63%, 64%);
+      --l300-lustful-wishes: hsl(324, 63%, 69%);
+      --l400-lustful-wishes: hsl(324, 63%, 73%);
+      --l500-lustful-wishes: hsl(324, 63%, 78%);
+      --l600-lustful-wishes: hsl(324, 63%, 82%);
+      --l700-lustful-wishes: hsl(324, 63%, 87%);
+      --l800-lustful-wishes: hsl(324, 63%, 91%);
+      --l900-lustful-wishes: hsl(324, 63%, 96%);
 
       /* night rider darker shades */
-      --d100-night-rider: #2d2a2a;
-      --d200-night-rider: #282626;
-      --d300-night-rider: #232121;
-      --d400-night-rider: #1e1c1c;
-      --d500-night-rider: #191818;
-      --d600-night-rider: #141313;
-      --d700-night-rider: #0f0e0e;
-      --d800-night-rider: #0a0909;
-      --d900-night-rider: #050505;
+      --d100-night-rider: hsl(0, 3%, 17%);
+      --d200-night-rider: hsl(0, 2%, 15%);
+      --d300-night-rider: hsl(0, 2%, 13%);
+      --d400-night-rider: hsl(0, 2%, 12%);
+      --d500-night-rider: hsl(0, 2%, 10%);
+      --d600-night-rider: hsl(0, 2%, 8%);
+      --d700-night-rider: hsl(0, 3%, 6%);
+      --d800-night-rider: hsl(0, 6%, 4%);
+      --d900-night-rider: hsl(0, 0%, 2%);
 
       /* night rider lighter shades */
-      --l100-night-rider: #474444;
-      --l200-night-rider: #5b5959;
-      --l300-night-rider: #706d6d;
-      --l400-night-rider: #848282;
-      --l500-night-rider: #999797;
-      --l600-night-rider: #adacac;
-      --l700-night-rider: #c2c1c1;
-      --l800-night-rider: #d6d5d5;
-      --l900-night-rider: #ebeaea;
+      --l100-night-rider: hsl(0, 2%, 27%);
+      --l200-night-rider: hsl(0, 1%, 35%);
+      --l300-night-rider: hsl(0, 1%, 43%);
+      --l400-night-rider: hsl(0, 1%, 51%);
+      --l500-night-rider: hsl(0, 1%, 60%);
+      --l600-night-rider: hsl(0, 1%, 68%);
+      --l700-night-rider: hsl(0, 1%, 76%);
+      --l800-night-rider: hsl(0, 1%, 84%);
+      --l900-night-rider: hsl(0, 2%, 92%);
 
       /* bleached silk darker shades */
-      --d100-bleached-silk: #dadada;
-      --d200-bleached-silk: #c2c2c2;
-      --d300-bleached-silk: #a9a9a9;
-      --d400-bleached-silk: #919191;
-      --d500-bleached-silk: #797979;
-      --d600-bleached-silk: #616161;
-      --d700-bleached-silk: #494949;
-      --d800-bleached-silk: #303030;
-      --d900-bleached-silk: #181818;
+      --d100-bleached-silk: hsl(0, 0%, 85%);
+      --d200-bleached-silk: hsl(0, 0%, 76%);
+      --d300-bleached-silk: hsl(0, 0%, 66%);
+      --d400-bleached-silk: hsl(0, 0%, 57%);
+      --d500-bleached-silk: hsl(0, 0%, 47%);
+      --d600-bleached-silk: hsl(0, 0%, 38%);
+      --d700-bleached-silk: hsl(0, 0%, 29%);
+      --d800-bleached-silk: hsl(0, 0%, 19%);
+      --d900-bleached-silk: hsl(0, 0%, 9%);
 
       /* bleached silk lighter shades */
-      --l100-bleached-silk: #f3f3f3;
-      --l200-bleached-silk: #f5f5f5;
-      --l300-bleached-silk: #f6f6f6;
-      --l400-bleached-silk: #f7f7f7;
-      --l500-bleached-silk: #f9f9f9;
-      --l600-bleached-silk: #fafafa;
-      --l700-bleached-silk: #fbfbfb;
-      --l800-bleached-silk: #fcfcfc;
-      --l900-bleached-silk: #fefefe;
+      --l100-bleached-silk: hsl(0, 0%, 95%);
+      --l200-bleached-silk: hsl(0, 0%, 96%);
+      --l300-bleached-silk: hsl(0, 0%, 96%);
+      --l400-bleached-silk: hsl(0, 0%, 97%);
+      --l500-bleached-silk: hsl(0, 0%, 98%);
+      --l600-bleached-silk: hsl(0, 0%, 98%);
+      --l700-bleached-silk: hsl(0, 0%, 98%);
+      --l800-bleached-silk: hsl(0, 0%, 99%);
+      --l900-bleached-silk: hsl(0, 0%, 100%);
 
       /* eclipse darker shades */
-      --d100-eclipse: #393535;
-      --d200-eclipse: #322f2f;
-      --d300-eclipse: #2c2929;
-      --d400-eclipse: #262323;
-      --d500-eclipse: #201e1e;
-      --d600-eclipse: #191818;
-      --d700-eclipse: #131212;
-      --d800-eclipse: #0d0c0c;
-      --d900-eclipse: #060606;
+      --d100-eclipse: hsl(0, 3%, 22%);
+      --d200-eclipse: hsl(0, 3%, 19%);
+      --d300-eclipse: hsl(0, 4%, 17%);
+      --d400-eclipse: hsl(0, 4%, 14%);
+      --d500-eclipse: hsl(0, 3%, 12%);
+      --d600-eclipse: hsl(0, 2%, 10%);
+      --d700-eclipse: hsl(0, 4%, 7%);
+      --d800-eclipse: hsl(0, 4%, 5%);
+      --d900-eclipse: hsl(0, 0%, 2%);
 
-      /* eclipse silk lighter shades */
-      --l100-eclipse: #524f4f;
-      --l200-eclipse: #656262;
-      --l300-eclipse: #797676;
-      --l400-eclipse: #8c8989;
-      --l500-eclipse: #9f9d9d;
-      --l600-eclipse: #b2b1b1;
-      --l700-eclipse: #c5c4c4;
-      --l800-eclipse: #d9d8d8;
-      --l900-eclipse: #ecebeb;
+      /* eclipse lighter shades */
+      --l100-eclipse: hsl(0, 2%, 32%);
+      --l200-eclipse: hsl(0, 2%, 39%);
+      --l300-eclipse: hsl(0, 1%, 47%);
+      --l400-eclipse: hsl(0, 1%, 55%);
+      --l500-eclipse: hsl(0, 1%, 62%);
+      --l600-eclipse: hsl(0, 1%, 70%);
+      --l700-eclipse: hsl(0, 1%, 77%);
+      --l800-eclipse: hsl(0, 1%, 85%);
+      --l900-eclipse: hsl(0, 2%, 93%);
 
       /* others */
-      --white: #blue;
-
-   
+      --white: hsl(0, 0%, 100%);
 
       /* color-scheme background */
       --site-background: light-dark(var(--base-bleached-silk), var(--base-eclipse));
@@ -180,6 +178,7 @@
       --background-blue-light: light-dark(var(--l100-xavier-blue), var(--d100-xavier-blue));
       
       --card-border: light-dark(var(--d100-bleached-silk), var(--d100-eclipse));
+
       /* color-scheme set rainbow buttons*/
       --button-rainbow-green:hsl(168 47% 84%);
       --button-rainbow-pink: hsl(322 65% 82%);
@@ -198,92 +197,84 @@
       --text-green: light-dark (var(--d600-cockatoo), var(--d600-cockatoo)); 
       --text-blue: light-dark(var(--d600-xavier-blue), var(--d600-xavier-blue));
       --text-pink: light-dark(var(--d600-lustful-wishes), var(--d600-lustful-wishes));
-
-
-      body {
-      background-color: var(   --base-bleached-silk);
-   }
-         /* Typografie */
-      font-family: 'TASA Orbiter', sans-serif;  
    }
 }
       
-      /* MARK: Font */
-      @font-face {
-         font-family:"Tasa-Orbiter";
-         fallback: sans-serif;
-         src: url(assets/TASAOrbiter-Regular.ttf);  /* Regular, weight: 400, size: 4px (in Figma 16px) */
-         font-weight: 400;
-      }
-      @font-face {
-         font-family:"Tasa-Orbiter" ;
-         fallback: sans-serif;
-         src: url(assets/TASAOrbiter-Medium.ttf); /* Medium, weight: 500, size: 5.5px (in Figma 22px) */
-         font-weight: 500;
-      }
-
-      @font-face {
-         font-family:"Tasa-Orbiter";
-         fallback: sans-serif;
-         src: url(assets/TASAOrbiter-SemiBold.ttf); /* SemiBold, weight: 600, size 4.5px (In Figma 18px)*/
-         font-weight: 600;
-      }
-
-      @font-face {
-         font-family:"Tasa-Orbiter";
-         fallback: sans-serif;
-         src: url(assets/TASAOrbiter-Bold.ttf); /* Bold, weight: 700*/
-         font-weight: 700;
-        } 
-
-      @font-face {
-         font-family:"Tasa-Orbiter";
-         fallback: sans-serif;
-         src: url(assets/TASAOrbiter-ExtraBold.ttf); /* ExtraBold, weight: 800 */
-         font-weight: 800;
-      } 
-      
-      body{
-         font-family: "Tasa-Orbiter";
-         background-color: var(--site-background);
-      }
-
-   .blue{
-      background-color: var(--button-rainbow-blue);
-   }
-   .green{
-      background-color: var(--button-rainbow-green);
-   }
-   .pink{
-      background-color: var(--button-rainbow-pink);
-   }
-   .other{
-      background-color: #322f2f;
-      color:white;      
-   }
-
-   .rainbowbuttons button{
-    border-radius: 1rem;
-    width: auto;
-    height: 7em;
-    border: 0;
-    border-bottom: 3px solid #BABABA;
-    color: #645A61;
-    font-weight: bold;
-    font-size: 1.2rem;
-    @media(min-width: 900px){
-        font-size: 1rem;
-    width: 180%;
-    }
+/* MARK: Font */
+@font-face {
+   font-family:"Tasa-Orbiter 400";
+   src: url(assets/TASAOrbiter-Regular.ttf);  /* Regular, weight: 400, size: 4px (in Figma 16px) */
+   font-weight: 400;
 }
 
-      .rainbowbuttons button:hover{
+@font-face {
+   font-family:"Tasa-Orbiter 500";
+   src: url(assets/TASAOrbiter-Medium.ttf); /* Medium, weight: 500, size: 5.5px (in Figma 22px) */
+   font-weight: 500;
+}
+
+@font-face {
+   font-family:"Tasa-Orbiter 600";
+   src: url(assets/TASAOrbiter-SemiBold.ttf); /* SemiBold, weight: 600, size 4.5px (In Figma 18px)*/
+   font-weight: 600;
+}
+
+@font-face {
+   font-family:"Tasa-Orbiter 700";
+   src: url(assets/TASAOrbiter-Bold.ttf); /* Bold, weight: 700*/
+   font-weight: 700;
+   } 
+
+@font-face {
+   font-family:"Tasa-Orbiter 800";
+   src: url(assets/TASAOrbiter-ExtraBold.ttf); /* ExtraBold, weight: 800 */
+   font-weight: 800;
+} 
+
+body{
+   font-family: "Tasa-Orbiter 400", sans-serif;
+   background-color: var(--site-background);
+}
+
+.blue-btn {
+   background-color: var(--button-rainbow-blue);
+}
+
+.green-btn {
+   background-color: var(--button-rainbow-green);
+}
+
+.pink-btn {
+   background-color: var(--button-rainbow-pink);
+}
+
+.other-btn {
+   background-color: #322f2f;
+   color:white;
+}
+
+.rainbowbuttons button {
+   border-radius: 1rem;
+   height: 7em;
+   border: 0;
+   border-bottom: 3px solid #BABABA;
+   color: #645A61;
+   font-weight: bold;
+   font-size: 1.2rem;
+   font-family: "Tasa-Orbiter 400", sans-serif;
+
+   @media (min-width: 768px) {
+      font-size: 1rem;
+      width: 180%;
+   }
+
+   &:hover {
       border: 0;
       cursor: pointer;
-      }
+   }
 
-      .rainbowbuttons button:nth-of-type(1){
-         grid-column: 1;
-         grid-row: 1;
-         background-color: #EFB4D9;}
-      
+   &:first-of-type {
+      grid-column: 1;
+      grid-row: 1;
+   }
+}
