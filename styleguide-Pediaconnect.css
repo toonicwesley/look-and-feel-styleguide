@@ -288,7 +288,7 @@
    .toggle-pill {
       appearance: none;
       font: inherit;
-      background-color: var(--base-night-rider);
+      background-color: var(--l700-night-rider);
       width: 5em;
       height: 2em;
       margin: 0;
