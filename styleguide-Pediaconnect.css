@@ -2,6 +2,37 @@
    https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers
    https://css-tricks.com/css-cascade-layers/ */
 
+/* MARK: Font */
+@font-face {
+   font-family:"Tasa-Orbiter 400";
+   src: url(assets/TASAOrbiter-Regular.ttf);  /* Regular, weight: 400, size: 4px (in Figma 16px) */
+   font-weight: 400;
+}
+
+@font-face {
+   font-family:"Tasa-Orbiter 500";
+   src: url(assets/TASAOrbiter-Medium.ttf); /* Medium, weight: 500, size: 5.5px (in Figma 22px) */
+   font-weight: 500;
+}
+
+@font-face {
+   font-family:"Tasa-Orbiter 600";
+   src: url(assets/TASAOrbiter-SemiBold.ttf); /* SemiBold, weight: 600, size 4.5px (In Figma 18px)*/
+   font-weight: 600;
+}
+
+@font-face {
+   font-family:"Tasa-Orbiter 700";
+   src: url(assets/TASAOrbiter-Bold.ttf); /* Bold, weight: 700*/
+   font-weight: 700;
+   } 
+
+@font-face {
+   font-family:"Tasa-Orbiter 800";
+   src: url(assets/TASAOrbiter-ExtraBold.ttf); /* ExtraBold, weight: 800 */
+   font-weight: 800;
+}
+
 @layer styleguide {
 
    /* Schrijf hier de verschillende stijlen, die
@@ -232,93 +263,66 @@
       --text-blue-darkmode: var(--text-blue);
       --text-pink-darkmode: var(--text-pink);
    }
-   
-}
-      
-/* MARK: Font */
-@font-face {
-   font-family:"Tasa-Orbiter 400";
-   src: url(assets/TASAOrbiter-Regular.ttf);  /* Regular, weight: 400, size: 4px (in Figma 16px) */
-   font-weight: 400;
-}
 
-@font-face {
-   font-family:"Tasa-Orbiter 500";
-   src: url(assets/TASAOrbiter-Medium.ttf); /* Medium, weight: 500, size: 5.5px (in Figma 22px) */
-   font-weight: 500;
-}
-
-@font-face {
-   font-family:"Tasa-Orbiter 600";
-   src: url(assets/TASAOrbiter-SemiBold.ttf); /* SemiBold, weight: 600, size 4.5px (In Figma 18px)*/
-   font-weight: 600;
-}
-
-@font-face {
-   font-family:"Tasa-Orbiter 700";
-   src: url(assets/TASAOrbiter-Bold.ttf); /* Bold, weight: 700*/
-   font-weight: 700;
-   } 
-
-@font-face {
-   font-family:"Tasa-Orbiter 800";
-   src: url(assets/TASAOrbiter-ExtraBold.ttf); /* ExtraBold, weight: 800 */
-   font-weight: 800;
-} 
-
-body{
-   font-family: "Tasa-Orbiter 400", sans-serif;
-   background-color: var(--site-background);
-}
-
-.blue-btn {
-   background-color: var(--button-rainbow-blue);
-}
-
-.green-btn {
-   background-color: var(--button-rainbow-green);
-}
-
-.pink-btn {
-   background-color: var(--button-rainbow-pink);
-}
-
-.other-btn {
-   background-color: #322f2f;
-   color:white;
-}
-
-.rainbowbuttons button {
-   border-radius: 1rem;
-   height: 7em;
-   border: 0;
-   border-bottom: 3px solid #BABABA;
-   color: #645A61;
-   font-weight: bold;
-   font-size: 1.2rem;
-   font-family: "Tasa-Orbiter 400", sans-serif;
-
-   @media (min-width: 768px) {
-      font-size: 1rem;
-      width: 180%;
+   * {
+      box-sizing: border-box;
    }
 
-   &:hover {
+   body{
+      font-family: "Tasa-Orbiter 400", sans-serif;
+      background-color: var(--site-background);
+   }
+
+   .blue-btn {
+      background-color: var(--button-rainbow-blue);
+   }
+
+   .green-btn {
+      background-color: var(--button-rainbow-green);
+   }
+
+   .pink-btn {
+      background-color: var(--button-rainbow-pink);
+   }
+
+   .other-btn {
+      background-color: #322f2f;
+      color:white;
+   }
+
+   .rainbowbuttons button {
+      border-radius: 1rem;
+      height: 7em;
       border: 0;
-      cursor: pointer;
+      border-bottom: 3px solid #BABABA;
+      color: #645A61;
+      font-weight: bold;
+      font-size: 1.2rem;
+      font-family: "Tasa-Orbiter 400", sans-serif;
+
+      @media (min-width: 768px) {
+         font-size: 1rem;
+         width: 180%;
+      }
+
+      &:hover {
+         border: 0;
+         cursor: pointer;
+      }
+
+      &:first-of-type {
+         grid-column: 1;
+         grid-row: 1;
+      }
+
    }
 
-   &:first-of-type {
-      grid-column: 1;
-      grid-row: 1;
-   }
-}
 
- /* MARK: toggle */
+   /* MARK: toggle */
    .toggle-pill {
       appearance: none;
       font: inherit;
-      background-color: var(--base-night-rider);
+      background-color: var(--l700-night-rider);
       width: 5em;
       height: 2em;
       margin: 0;
@@ -346,3 +350,24 @@ body{
          translate: 2em;
       }
    }
+
+   input[type="checkbox"].checkbox-1 {
+      appearance: none;
+      border: 1px solid var(--base-eclipse);
+      border-radius: 4px;
+      cursor: pointer;
+      height: 1.2rem;
+      position: relative;
+      width: 1.2rem;
+
+      &:checked::before {
+         background: var(--d700-bleached-silk);
+         border-radius: 2px;
+         content: "";
+         inset: 15%;
+         pointer-events: none;
+         position: absolute;
+         z-index: 1;
+      }
+   }
+}
