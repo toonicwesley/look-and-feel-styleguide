@@ -198,6 +198,7 @@
       --text-blue: light-dark(var(--d600-xavier-blue), var(--d600-xavier-blue));
       --text-pink: light-dark(var(--d600-lustful-wishes), var(--d600-lustful-wishes));
    }
+   
 }
       
 /* MARK: Font */
@@ -278,3 +279,36 @@ body{
       grid-row: 1;
    }
 }
+
+ /* MARK: toggle */
+   .toggle-pill {
+      appearance: none;
+      font: inherit;
+      background-color: var(--background-dark);
+      width: 5em;
+      height: 2em;
+      margin: 0;
+      border-radius: 1em;
+      cursor: pointer;
+      transition: 0.5s;
+
+      &::after {
+         content: "";
+         display: block;
+         width: 3em;
+         height: 2em;
+         scale: .8;
+         background-color: var(--background-light);
+         border-radius: inherit;
+         transition: 0.5s;
+         box-shadow: 0px 3px 5px var(--button-dropshow);
+      }
+
+      &:checked {
+         background-color: var(--background-green);
+      }
+
+      &:checked::after {
+         translate: 2em;
+      }
+   }
