@@ -263,7 +263,7 @@
       --text-blue-darkmode: var(--text-blue);
       --text-pink-darkmode: var(--text-pink);
    }
-
+   /* MARK: buttons kleuren */
    * {
       box-sizing: border-box;
    }
