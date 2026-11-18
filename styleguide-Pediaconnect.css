@@ -185,7 +185,7 @@
       --site-background: hsl(0, 0%, 95%);
       --footer-background: hsl(0, 0%, 100%);
 
-      /* color-scheme background dark */
+      /* color-scheme background darkmode */
       --site-background-darkmode: hsl(from var(--site-background), h calc(s + 3) calc(l - 70));
       --footer-background-darkmode: hsl(from var(--footer-background) h calc(s + 2) calc(l - 7));
 
@@ -212,7 +212,7 @@
       
       --card-border: hsl(0, 0%, 85%);
 
-      /* color-scheme icons set dark */
+      /* color-scheme icons set darkmode */
       --icon-light-darkmode: hsl(from var(--icon-light) h calc(s + 1) calc(l - 40));
       --icon-medium-darkmode: hsl(from var(--icon-medium) h calc(s + 2) calc(l - 50));
       --icon-dark-darkmode: hsl(from var(--icon-dark) h calc(s - 3) calc(l + 76));
@@ -240,7 +240,7 @@
       --button-rainbow-pink: hsl(322 65% 82%);
       --button-rainbow-blue: hsl(201 65% 85%);
 
-      /* color-scheme set rainbow buttons dark mode*/
+      /* color-scheme set rainbow buttons darkmode*/
       --button-rainbow-green-darkmode:hsl(from var(--button-rainbow-green) h s calc(l - 50));
       --button-rainbow-pink-darkmode:hsl(from var(--button-rainbow-pink) h s calc(l - 50));
       --button-rainbow-blue-darkmode:hsl(from var(--button-rainbow-blue) h s calc(l - 50));
