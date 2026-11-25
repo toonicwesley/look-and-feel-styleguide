@@ -179,19 +179,19 @@
 
    body{
       font-family: "Tasa-Orbiter 400", sans-serif;
-      background-color: var(--site-background);
+      background-color: var(--site-background-color);
    }
 
    .blue-btn {
-      background-color: var(--button-rainbow-blue);
+      background-color: var(--button-rainbow-blue-color);
    }
 
    .green-btn {
-      background-color: var(--button-rainbow-green);
+      background-color: var(--button-rainbow-green-color);
    }
 
    .pink-btn {
-      background-color: var(--button-rainbow-pink);
+      background-color: var(--button-rainbow-pink-color);
    }
 
    .backgroundcolor {
