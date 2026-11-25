@@ -180,56 +180,90 @@
       --l800-eclipse: hsl(0, 1%, 85%);
       --l900-eclipse: hsl(0, 2%, 93%);
 
-      /* others */
-      --white: hsl(0, 0%, 100%);
 
       /* color-scheme background */
-      --site-background: light-dark(var(--base-bleached-silk), var(--base-eclipse));
-      --footer-background: light-dark(var(--white), var(--d100-eclipse));
+      --site-background: hsl(0, 0%, 95%);
+      --footer-background: hsl(0, 0%, 100%);
+
+      /* color-scheme background darkmode */
+      --site-background-darkmode: hsl(from var(--site-background), h calc(s + 3) calc(l - 70));
+      --footer-background-darkmode: hsl(from var(--footer-background) h calc(s + 2) calc(l - 7));
 
       /* color-scheme icons set */
-      --icon-light: light-dark(var(--white), var(--l500-night-rider));
-      --icon-medium: light-dark(var(--d300-bleached-silk), var(--d200-night-rider));
-      --icon-dark: light-dark(var(--base-night-rider), var(--base-bleached-silk));
+      --icon-light: hsl(0, 0%, 100%);
+      --icon-medium: hsl(0, 0%, 66%);
+      --icon-dark: hsl(0, 3%, 19%);
 
-      --icon-light-blue: light-dark(var(--d100-xavier-blue), var(--d400-xavier-blue));
-      --icon-light-green: light-dark(var(--d100-cockatoo), var(--d300-cockatoo));
-      --icon-light-pink: light-dark(var(--d100-lustful-wishes), var(--d200-lustful-wishes));
+      --icon-light-blue:hsl(202, 50%, 57%);
+      --icon-light-green: hsl(168, 36%, 53%);
+      --icon-light-pink: hsl(324, 53%, 50%);
 
-      --icon-dark-blue: light-dark(var(--d400-xavier-blue), var(--l600-xavier-blue));
-      --icon-dark-green: light-dark(var(--d600-cockatoo), var(--l600-cockatoo));
-      --icon-dark-pink: light-dark(var(--d600-lustful-wishes), var(--d100-lustful-wishes));
+      --icon-dark-blue:hsl(202, 37%, 38%);
+      --icon-dark-green: hsl(168, 32%, 24%);
+      --icon-dark-pink: hsl(324, 52%, 22%);
 
-      --background-pink:light-dark(var(--base-lustful-wishes), var(--d400-cockatoo)); 
-      --background-green: light-dark(var(--base-cockatoo), var(--d400-cockatoo));
-      --background-blue: light-dark(var(--base-xavier-blue), var(--d400-xavier-blue));
+      --background-pink:hsl(322, 64%, 55%); 
+      --background-green:hsl(168, 46%, 59%);
+      --background-blue: hsl(202, 65%, 64%);
 
-      --background-pink-light: light-dark(var(--l600-lustful-wishes), var(--d600-lustful-wishes));
-      --background-green-light: light-dark(var(--l600-cockatoo), var(--d600-cockatoo));
-      --background-blue-light: light-dark(var(--l100-xavier-blue), var(--d100-xavier-blue));
+      --background-pink-light: hsl(324, 63%, 82%);
+      --background-green-light: hsl(168, 39%, 84%);
+      --background-blue-light: hsl(201, 65%, 67%);
       
-      --card-border: light-dark(var(--d100-bleached-silk), var(--d100-eclipse));
+      --card-border: hsl(0, 0%, 85%);
+
+      /* color-scheme icons set darkmode */
+      --icon-light-darkmode: hsl(from var(--icon-light) h calc(s + 1) calc(l - 40));
+      --icon-medium-darkmode: hsl(from var(--icon-medium) h calc(s + 2) calc(l - 50));
+      --icon-dark-darkmode: hsl(from var(--icon-dark) h calc(s - 3) calc(l + 76));
+
+      --icon-light-blue-darkmode: hsl(from var(--icon-light-blue) h calc(s - 13) calc(l - 19));
+      --icon-light-green-darkmode: hsl(from var(--icon-light-green)h calc(s - 4) calc(l - 20));
+      --icon-light-pink-darkmode: hsl(from var(--icon-light-pink)h calc(s - 1) calc(l - 6));
+
+      --icon-dark-blue-darkmode: hsl(from var(--icon-dark-blue)h calc(s + 28) calc(l + 25));
+      --icon-dark-green-darkmode: hsl(from var(--icon-dark-green)h calc(s + 7) calc(l + 60));
+      --icon-dark-pink-darkmode: hsl(from var(--icon-dark-pink)h calc(s + 1) calc(l + 28));
+
+      --background-pink-darkmode:hsl(from var(--background-pink)h calc(s - 32) calc(l - 20));
+      --background-green-darkmode: hsl(from var(--background-green)h calc(s - 14) calc(l - 29));
+      --background-blue-darkmode: hsl(from var(--background-blue)h calc(s - 28) calc(l - 26));
+
+      --background-pink-light-darkmode: hsl(from var(--background-pink-light)h calc(s - 13) calc(l - 45));
+      --background-green-light-darkmode: hsl(from var(--background-green-light)h calc(s - 7) calc(l - 60));
+      --background-blue-light-darkmode: hsl(from var(--background-blue-light)h calc(s - 15) calc(l - 10));
+      
+      --card-border-darkmode: light-dark(var(--card-border)h calc(s + 3) calc(l -62));
 
       /* color-scheme set rainbow buttons*/
       --button-rainbow-green:hsl(168 47% 84%);
       --button-rainbow-pink: hsl(322 65% 82%);
       --button-rainbow-blue: hsl(201 65% 85%);
 
-      /* color-scheme set rainbow buttons dark mode*/
-      --button-rainbow-green-dark:hsl(from var(--button-rainbow-green) h s calc(l - 50));
-      --button-rainbow-pink-dark:hsl(from var(--button-rainbow-pink) h s calc(l - 50));
-      --button-rainbow-blue-dark:hsl(from var(--button-rainbow-blue) h s calc(l - 50));
+      /* color-scheme set rainbow buttons darkmode*/
+      --button-rainbow-green-darkmode:hsl(from var(--button-rainbow-green) h s calc(l - 50));
+      --button-rainbow-pink-darkmode:hsl(from var(--button-rainbow-pink) h s calc(l - 50));
+      --button-rainbow-blue-darkmode:hsl(from var(--button-rainbow-blue) h s calc(l - 50));
 
       /* color-scheme set hover */
-      --button-hover-shadow: light-dark(var(--d200-bleached-silk), var(--d800-bleached-silk));
+      --button-hover-shadow: hsl(0, 0%, 76%);
+
+      /* color-scheme set hover darkmode */
+      --button-hover-shadow-darkmode: hsl(var(--button-hover-shadow)h s calc(l - 57));
 
       /* Kleuren typografie */
-      --text-default-bomba: light-dark (var(--base-night-rider), var(--base-bleached-silk)); /* Van donkere tekst naar witte tekst met dark mode */
-      --text-green: light-dark (var(--d600-cockatoo), var(--d600-cockatoo)); 
-      --text-blue: light-dark(var(--d600-xavier-blue), var(--d600-xavier-blue));
-      --text-pink: light-dark(var(--d600-lustful-wishes), var(--d600-lustful-wishes));
-   }
+      --text-default-bomba: hsl(0, 3%, 19%); 
+      --text-green: hsl(168, 32%, 24%); 
+      --text-blue: hsl(201, 37%, 25%);
+      --text-pink: hsl(324, 52%, 22%);
 
+      /* Kleuren typografie darkmode */
+      --text-default-bomba-darkmode: hsl(from var(--text-default-bomba)h calc(s - 3) calc(l - 76)); 
+      --text-green-darkmode:  var(--text-green); 
+      --text-blue-darkmode: var(--text-blue);
+      --text-pink-darkmode: var(--text-pink);
+   }
+   /* MARK: buttons kleuren */
    * {
       box-sizing: border-box;
    }
@@ -280,7 +314,6 @@
          grid-column: 1;
          grid-row: 1;
       }
-
    }
 
 
