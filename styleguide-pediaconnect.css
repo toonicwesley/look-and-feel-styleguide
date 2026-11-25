@@ -40,150 +40,11 @@
 
    /* Kleuren */
    :root {
-      /* MARK: colors */
-      --base-xavier-blue: hsl(202, 65%, 64%);
-      --base-cockatoo: hsl(168, 46%, 59%);
-      --base-lustful-wishes: hsl(322, 64%, 55%);
-      --base-night-rider: hsl(0, 3%, 19%);
-      --base-bleached-silk: hsl(0, 0%, 95%);
-      --base-eclipse: hsl(0, 3%, 24%);
-
-      /* xavier-blue darker shades */
-      --d100-xavier-blue: hsl(202, 50%, 57%);
-      --d200-xavier-blue: hsl(202, 38%, 51%);
-      --d300-xavier-blue: hsl(202, 37%, 45%);
-      --d400-xavier-blue: hsl(202, 37%, 38%);
-      --d500-xavier-blue: hsl(202, 37%, 32%);
-      --d600-xavier-blue: hsl(201, 37%, 25%);
-      --d700-xavier-blue: hsl(202, 37%, 19%);
-      --d800-xavier-blue: hsl(202, 38%, 13%);
-      --d900-xavier-blue: hsl(200, 38%, 6%);
-
-      /* xavier-blue lighter shades */
-      --l100-xavier-blue: hsl(201, 65%, 67%);
-      --l200-xavier-blue: hsl(202, 65%, 71%);
-      --l300-xavier-blue: hsl(202, 66%, 75%);
-      --l400-xavier-blue: hsl(202, 66%, 78%);
-      --l500-xavier-blue: hsl(202, 65%, 82%);
-      --l600-xavier-blue: hsl(201, 65%, 85%);
-      --l700-xavier-blue: hsl(202, 64%, 89%);
-      --l800-xavier-blue: hsl(202, 68%, 93%);
-      --l900-xavier-blue: hsl(205, 67%, 96%);
-
-      /* cockatoo darker shades */
-      --d100-cockatoo: hsl(168, 36%, 53%);
-      --d200-cockatoo: hsl(168, 32%, 47%);
-      --d300-cockatoo: hsl(169, 32%, 41%);
-      --d400-cockatoo: hsl(169, 32%, 35%);
-      --d500-cockatoo: hsl(168, 32%, 30%);
-      --d600-cockatoo: hsl(168, 32%, 24%);
-      --d700-cockatoo: hsl(168, 32%, 18%);
-      --d800-cockatoo: hsl(168, 33%, 12%);
-      --d900-cockatoo: hsl(168, 33%, 6%);
-
-      /* cockatoo lighter shades */
-      --l100-cockatoo: hsl(168, 47%, 63%);
-      --l200-cockatoo: hsl(168, 46%, 67%);
-      --l300-cockatoo: hsl(169, 47%, 71%);
-      --l400-cockatoo: hsl(169, 46%, 75%);
-      --l500-cockatoo: hsl(169, 46%, 80%);
-      --l600-cockatoo: hsl(168, 39%, 84%);
-      --l700-cockatoo: hsl(168, 41%, 88%);
-      --l800-cockatoo: hsl(168, 44%, 92%);
-      --l900-cockatoo: hsl(168, 43%, 96%);
-
-      /* lustful-wishes darker shades */
-      --d100-lustful-wishes: hsl(324, 53%, 50%);
-      --d200-lustful-wishes: hsl(324, 52%, 44%);
-      --d300-lustful-wishes: hsl(324, 52%, 39%);
-      --d400-lustful-wishes: hsl(324, 52%, 33%);
-      --d500-lustful-wishes: hsl(324, 52%, 28%);
-      --d600-lustful-wishes: hsl(324, 52%, 22%);
-      --d700-lustful-wishes: hsl(324, 52%, 16%);
-      --d800-lustful-wishes: hsl(324, 53%, 11%);
-      --d900-lustful-wishes: hsl(324, 54%, 5%);
-
-      /* lustful-wishes lighter shades */
-      --l100-lustful-wishes: hsl(324, 63%, 60%);
-      --l200-lustful-wishes: hsl(324, 63%, 64%);
-      --l300-lustful-wishes: hsl(324, 63%, 69%);
-      --l400-lustful-wishes: hsl(324, 63%, 73%);
-      --l500-lustful-wishes: hsl(324, 63%, 78%);
-      --l600-lustful-wishes: hsl(324, 63%, 82%);
-      --l700-lustful-wishes: hsl(324, 63%, 87%);
-      --l800-lustful-wishes: hsl(324, 63%, 91%);
-      --l900-lustful-wishes: hsl(324, 63%, 96%);
-
-      /* night rider darker shades */
-      --d100-night-rider: hsl(0, 3%, 17%);
-      --d200-night-rider: hsl(0, 2%, 15%);
-      --d300-night-rider: hsl(0, 2%, 13%);
-      --d400-night-rider: hsl(0, 2%, 12%);
-      --d500-night-rider: hsl(0, 2%, 10%);
-      --d600-night-rider: hsl(0, 2%, 8%);
-      --d700-night-rider: hsl(0, 3%, 6%);
-      --d800-night-rider: hsl(0, 6%, 4%);
-      --d900-night-rider: hsl(0, 0%, 2%);
-
-      /* night rider lighter shades */
-      --l100-night-rider: hsl(0, 2%, 27%);
-      --l200-night-rider: hsl(0, 1%, 35%);
-      --l300-night-rider: hsl(0, 1%, 43%);
-      --l400-night-rider: hsl(0, 1%, 51%);
-      --l500-night-rider: hsl(0, 1%, 60%);
-      --l600-night-rider: hsl(0, 1%, 68%);
-      --l700-night-rider: hsl(0, 1%, 76%);
-      --l800-night-rider: hsl(0, 1%, 84%);
-      --l900-night-rider: hsl(0, 2%, 92%);
-
-      /* bleached silk darker shades */
-      --d100-bleached-silk: hsl(0, 0%, 85%);
-      --d200-bleached-silk: hsl(0, 0%, 76%);
-      --d300-bleached-silk: hsl(0, 0%, 66%);
-      --d400-bleached-silk: hsl(0, 0%, 57%);
-      --d500-bleached-silk: hsl(0, 0%, 47%);
-      --d600-bleached-silk: hsl(0, 0%, 38%);
-      --d700-bleached-silk: hsl(0, 0%, 29%);
-      --d800-bleached-silk: hsl(0, 0%, 19%);
-      --d900-bleached-silk: hsl(0, 0%, 9%);
-
-      /* bleached silk lighter shades */
-      --l100-bleached-silk: hsl(0, 0%, 95%);
-      --l200-bleached-silk: hsl(0, 0%, 96%);
-      --l300-bleached-silk: hsl(0, 0%, 96%);
-      --l400-bleached-silk: hsl(0, 0%, 97%);
-      --l500-bleached-silk: hsl(0, 0%, 98%);
-      --l600-bleached-silk: hsl(0, 0%, 98%);
-      --l700-bleached-silk: hsl(0, 0%, 98%);
-      --l800-bleached-silk: hsl(0, 0%, 99%);
-      --l900-bleached-silk: hsl(0, 0%, 100%);
-
-      /* eclipse darker shades */
-      --d100-eclipse: hsl(0, 3%, 22%);
-      --d200-eclipse: hsl(0, 3%, 19%);
-      --d300-eclipse: hsl(0, 4%, 17%);
-      --d400-eclipse: hsl(0, 4%, 14%);
-      --d500-eclipse: hsl(0, 3%, 12%);
-      --d600-eclipse: hsl(0, 2%, 10%);
-      --d700-eclipse: hsl(0, 4%, 7%);
-      --d800-eclipse: hsl(0, 4%, 5%);
-      --d900-eclipse: hsl(0, 0%, 2%);
-
-      /* eclipse lighter shades */
-      --l100-eclipse: hsl(0, 2%, 32%);
-      --l200-eclipse: hsl(0, 2%, 39%);
-      --l300-eclipse: hsl(0, 1%, 47%);
-      --l400-eclipse: hsl(0, 1%, 55%);
-      --l500-eclipse: hsl(0, 1%, 62%);
-      --l600-eclipse: hsl(0, 1%, 70%);
-      --l700-eclipse: hsl(0, 1%, 77%);
-      --l800-eclipse: hsl(0, 1%, 85%);
-      --l900-eclipse: hsl(0, 2%, 93%);
-
 
       /* color-scheme background */
       --site-background: hsl(0, 0%, 95%);
       --footer-background: hsl(0, 0%, 100%);
+
 
       /* color-scheme background darkmode */
       --site-background-darkmode: hsl(from var(--site-background), h calc(s + 3) calc(l - 70));
@@ -211,6 +72,7 @@
       --background-blue-light: hsl(201, 65%, 67%);
       
       --card-border: hsl(0, 0%, 85%);
+
 
       /* color-scheme icons set darkmode */
       --icon-light-darkmode: hsl(from var(--icon-light) h calc(s + 1) calc(l - 40));
@@ -240,6 +102,7 @@
       --button-rainbow-pink: hsl(322 65% 82%);
       --button-rainbow-blue: hsl(201 65% 85%);
 
+
       /* color-scheme set rainbow buttons darkmode*/
       --button-rainbow-green-darkmode:hsl(from var(--button-rainbow-green) h s calc(l - 50));
       --button-rainbow-pink-darkmode:hsl(from var(--button-rainbow-pink) h s calc(l - 50));
@@ -247,6 +110,7 @@
 
       /* color-scheme set hover */
       --button-hover-shadow: hsl(0, 0%, 76%);
+
 
       /* color-scheme set hover darkmode */
       --button-hover-shadow-darkmode: hsl(var(--button-hover-shadow)h s calc(l - 57));
@@ -257,11 +121,56 @@
       --text-blue: hsl(201, 37%, 25%);
       --text-pink: hsl(324, 52%, 22%);
 
+
       /* Kleuren typografie darkmode */
       --text-default-bomba-darkmode: hsl(from var(--text-default-bomba)h calc(s - 3) calc(l - 76)); 
       --text-green-darkmode:  var(--text-green); 
       --text-blue-darkmode: var(--text-blue);
       --text-pink-darkmode: var(--text-pink);
+
+
+
+      /*benodigde kleuren properties voor light en dark mode*/
+      /*background*/
+      --site-background-color: light-dark(var(--site-background),var(--site-background-darkmode));
+      --footer-background-color: light-dark(var(--footer-background),var(--footer-background-darkmode));
+
+      /*icon colors*/
+      --icon-light-color: light-dark(var(--icon-light),var(--icon-light-darkmode));
+      --icon-medium-color: light-dark(var(--icon-medium),var(--icon-medium-darkmode));
+      --icon-dark-color: light-dark(var(--icon-dark),var(--icon-dark-darkmode));
+
+      --icon-light-blue-color: light-dark(var(--icon-light-blue), var(--icon-light-blue-darkmode));
+      --icon-light-green-color: light-dark(var(--icon-light-green), var(--icon-light-green-darkmode));
+      --icon-light-pink-color: light-dark(var(--icon-light-pink),var(--icon-light-pink-darkmode));
+
+      --icon-dark-blue-color: light-dark(var(--icon-dark-blue),var(--icon-dark-blue-darkmode));
+      --icon-dark-green-color: light-dark(var(--icon-dark-green),var(--icon-dark-green-darkmode));
+      --icon-dark-pink-color: light-dark(var(--icon-dark-pink),var(--icon-dark-pink-darkmode));
+
+      --background-pink-color: light-dark(var(--background-pink), var(--background-pink-darkmode));
+      --background-green-color: light-dark(var(--background-green),var(--background-green-darkmode));
+      --background-blue-color: light-dark(var(--background-blue),var(--background-blue-darkmode));
+
+      --background-pink-light-color: light-dark(var(--background-pink-light),var(--background-pink-light-darkmode));
+      --background-green-light-color: light-dark(var(--background-green-light),var(--background-green-light-darkmode));
+      --background-blue-light-color: light-dark(var(--background-blue-light),var(--background-blue-light-darkmode));
+
+      --card-border-color: light-dark(var(--card-border),var(--card-border-darkmode));
+
+      /*rainbow button colors*/
+      --button-rainbow-green-color: light-dark(var(--button-rainbow-green),var(--button-rainbow-green-darkmode));
+      --button-rainbow-pink-color: light-dark(var(--button-rainbow-pink),var(--button-rainbow-pink-darkmode));
+      --button-rainbow-blue-color: light-dark(var(--button-rainbow-blue),var(--button-rainbow-blue-darkmode));
+
+      --button-hover-shadow-color: light-dark(var(--button-hover-shadow),var(--button-hover-shadow-darkmode));
+
+      /*text colors*/
+      --text-default-bomba-color: light-dark(var(--text-default-bomba),var(--text-default-bomba-darkmode));
+      --text-green-color: light-dark(var(--text-green),var(--text-green-darkmode));
+      --text-blue-color: light-dark(var(--text-blue),var(--text-blue-darkmode));
+      --text-pink-color: light-dark(var(--text-pink),var(--text-pink-darkmode));
+
    }
    /* MARK: buttons kleuren */
    * {
