@@ -4,32 +4,37 @@
 
 /* MARK: Font */
 @font-face {
-   font-family:"Tasa-Orbiter 400";
-   src: url(assets/TASAOrbiter-Regular.ttf);  /* Regular, weight: 400, size: 4px (in Figma 16px) */
+   font-family: "Tasa-Orbiter 400";
+   src: url(assets/TASAOrbiter-Regular.ttf);
+   /* Regular, weight: 400, size: 4px (in Figma 16px) */
    font-weight: 400;
 }
 
 @font-face {
-   font-family:"Tasa-Orbiter 500";
-   src: url(assets/TASAOrbiter-Medium.ttf); /* Medium, weight: 500, size: 5.5px (in Figma 22px) */
+   font-family: "Tasa-Orbiter 500";
+   src: url(assets/TASAOrbiter-Medium.ttf);
+   /* Medium, weight: 500, size: 5.5px (in Figma 22px) */
    font-weight: 500;
 }
 
 @font-face {
-   font-family:"Tasa-Orbiter 600";
-   src: url(assets/TASAOrbiter-SemiBold.ttf); /* SemiBold, weight: 600, size 4.5px (In Figma 18px)*/
+   font-family: "Tasa-Orbiter 600";
+   src: url(assets/TASAOrbiter-SemiBold.ttf);
+   /* SemiBold, weight: 600, size 4.5px (In Figma 18px)*/
    font-weight: 600;
 }
 
 @font-face {
-   font-family:"Tasa-Orbiter 700";
-   src: url(assets/TASAOrbiter-Bold.ttf); /* Bold, weight: 700*/
+   font-family: "Tasa-Orbiter 700";
+   src: url(assets/TASAOrbiter-Bold.ttf);
+   /* Bold, weight: 700*/
    font-weight: 700;
-   } 
+}
 
 @font-face {
-   font-family:"Tasa-Orbiter 800";
-   src: url(assets/TASAOrbiter-ExtraBold.ttf); /* ExtraBold, weight: 800 */
+   font-family: "Tasa-Orbiter 800";
+   src: url(assets/TASAOrbiter-ExtraBold.ttf);
+   /* ExtraBold, weight: 800 */
    font-weight: 800;
 }
 
@@ -42,7 +47,7 @@
    :root {
 
       /* color-scheme background */
-      --site-background: hsl(0, 0%, 95%);
+      --site-background: hsl(0, 0%, 90%);
       --footer-background: hsl(0, 0%, 100%);
 
 
@@ -55,22 +60,22 @@
       --icon-medium: hsl(0, 0%, 66%);
       --icon-dark: hsl(0, 3%, 19%);
 
-      --icon-light-blue:hsl(202, 50%, 57%);
+      --icon-light-blue: hsl(202, 50%, 57%);
       --icon-light-green: hsl(168, 36%, 53%);
       --icon-light-pink: hsl(324, 53%, 50%);
 
-      --icon-dark-blue:hsl(202, 37%, 38%);
+      --icon-dark-blue: hsl(202, 37%, 38%);
       --icon-dark-green: hsl(168, 32%, 24%);
       --icon-dark-pink: hsl(324, 52%, 22%);
 
-      --background-pink:hsl(322, 64%, 55%); 
-      --background-green:hsl(168, 46%, 59%);
+      --background-pink: hsl(322, 64%, 55%);
+      --background-green: hsl(168, 46%, 59%);
       --background-blue: hsl(202, 65%, 64%);
 
       --background-pink-light: hsl(324, 63%, 82%);
       --background-green-light: hsl(168, 39%, 84%);
       --background-blue-light: hsl(201, 65%, 67%);
-      
+
       --card-border: hsl(0, 0%, 85%);
 
 
@@ -87,26 +92,26 @@
       --icon-dark-green-darkmode: hsl(from var(--icon-dark-green)h calc(s + 7) calc(l + 60));
       --icon-dark-pink-darkmode: hsl(from var(--icon-dark-pink)h calc(s + 1) calc(l + 28));
 
-      --background-pink-darkmode:hsl(from var(--background-pink)h calc(s - 32) calc(l - 20));
+      --background-pink-darkmode: hsl(from var(--background-pink)h calc(s - 32) calc(l - 20));
       --background-green-darkmode: hsl(from var(--background-green)h calc(s - 14) calc(l - 29));
       --background-blue-darkmode: hsl(from var(--background-blue)h calc(s - 28) calc(l - 26));
 
       --background-pink-light-darkmode: hsl(from var(--background-pink-light)h calc(s - 13) calc(l - 45));
       --background-green-light-darkmode: hsl(from var(--background-green-light)h calc(s - 7) calc(l - 60));
       --background-blue-light-darkmode: hsl(from var(--background-blue-light)h calc(s - 15) calc(l - 10));
-      
+
       --card-border-darkmode: light-dark(var(--card-border)h calc(s + 3) calc(l -62));
 
       /* color-scheme set rainbow buttons*/
-      --button-rainbow-green:hsl(168 47% 84%);
+      --button-rainbow-green: hsl(168 47% 84%);
       --button-rainbow-pink: hsl(322 65% 82%);
       --button-rainbow-blue: hsl(201 65% 85%);
 
 
       /* color-scheme set rainbow buttons darkmode*/
-      --button-rainbow-green-darkmode:hsl(from var(--button-rainbow-green) h s calc(l - 50));
-      --button-rainbow-pink-darkmode:hsl(from var(--button-rainbow-pink) h s calc(l - 50));
-      --button-rainbow-blue-darkmode:hsl(from var(--button-rainbow-blue) h s calc(l - 50));
+      --button-rainbow-green-darkmode: hsl(from var(--button-rainbow-green) h s calc(l - 50));
+      --button-rainbow-pink-darkmode: hsl(from var(--button-rainbow-pink) h s calc(l - 50));
+      --button-rainbow-blue-darkmode: hsl(from var(--button-rainbow-blue) h s calc(l - 50));
 
       /* color-scheme set hover */
       --button-hover-shadow: hsl(0, 0%, 76%);
@@ -116,15 +121,15 @@
       --button-hover-shadow-darkmode: hsl(var(--button-hover-shadow)h s calc(l - 57));
 
       /* Kleuren typografie */
-      --text-default-bomba: hsl(0, 3%, 19%); 
-      --text-green: hsl(168, 32%, 24%); 
+      --text-default-bomba: hsl(0, 3%, 19%);
+      --text-green: hsl(168, 32%, 24%);
       --text-blue: hsl(201, 37%, 25%);
       --text-pink: hsl(324, 52%, 22%);
 
 
       /* Kleuren typografie darkmode */
-      --text-default-bomba-darkmode: hsl(from var(--text-default-bomba)h calc(s - 3) calc(l - 76)); 
-      --text-green-darkmode:  var(--text-green); 
+      --text-default-bomba-darkmode: hsl(from var(--text-default-bomba)h calc(s - 3) calc(l - 76));
+      --text-green-darkmode: var(--text-green);
       --text-blue-darkmode: var(--text-blue);
       --text-pink-darkmode: var(--text-pink);
 
@@ -132,52 +137,53 @@
 
       /*benodigde kleuren properties voor light en dark mode*/
       /*background*/
-      --site-background-color: light-dark(var(--site-background),var(--site-background-darkmode));
-      --footer-background-color: light-dark(var(--footer-background),var(--footer-background-darkmode));
+      --site-background-color: light-dark(var(--site-background), var(--site-background-darkmode));
+      --footer-background-color: light-dark(var(--footer-background), var(--footer-background-darkmode));
 
       /*icon colors*/
-      --icon-light-color: light-dark(var(--icon-light),var(--icon-light-darkmode));
-      --icon-medium-color: light-dark(var(--icon-medium),var(--icon-medium-darkmode));
-      --icon-dark-color: light-dark(var(--icon-dark),var(--icon-dark-darkmode));
+      --icon-light-color: light-dark(var(--icon-light), var(--icon-light-darkmode));
+      --icon-medium-color: light-dark(var(--icon-medium), var(--icon-medium-darkmode));
+      --icon-dark-color: light-dark(var(--icon-dark), var(--icon-dark-darkmode));
 
       --icon-light-blue-color: light-dark(var(--icon-light-blue), var(--icon-light-blue-darkmode));
       --icon-light-green-color: light-dark(var(--icon-light-green), var(--icon-light-green-darkmode));
-      --icon-light-pink-color: light-dark(var(--icon-light-pink),var(--icon-light-pink-darkmode));
+      --icon-light-pink-color: light-dark(var(--icon-light-pink), var(--icon-light-pink-darkmode));
 
-      --icon-dark-blue-color: light-dark(var(--icon-dark-blue),var(--icon-dark-blue-darkmode));
-      --icon-dark-green-color: light-dark(var(--icon-dark-green),var(--icon-dark-green-darkmode));
-      --icon-dark-pink-color: light-dark(var(--icon-dark-pink),var(--icon-dark-pink-darkmode));
+      --icon-dark-blue-color: light-dark(var(--icon-dark-blue), var(--icon-dark-blue-darkmode));
+      --icon-dark-green-color: light-dark(var(--icon-dark-green), var(--icon-dark-green-darkmode));
+      --icon-dark-pink-color: light-dark(var(--icon-dark-pink), var(--icon-dark-pink-darkmode));
 
       --background-pink-color: light-dark(var(--background-pink), var(--background-pink-darkmode));
-      --background-green-color: light-dark(var(--background-green),var(--background-green-darkmode));
-      --background-blue-color: light-dark(var(--background-blue),var(--background-blue-darkmode));
+      --background-green-color: light-dark(var(--background-green), var(--background-green-darkmode));
+      --background-blue-color: light-dark(var(--background-blue), var(--background-blue-darkmode));
 
-      --background-pink-light-color: light-dark(var(--background-pink-light),var(--background-pink-light-darkmode));
-      --background-green-light-color: light-dark(var(--background-green-light),var(--background-green-light-darkmode));
-      --background-blue-light-color: light-dark(var(--background-blue-light),var(--background-blue-light-darkmode));
+      --background-pink-light-color: light-dark(var(--background-pink-light), var(--background-pink-light-darkmode));
+      --background-green-light-color: light-dark(var(--background-green-light), var(--background-green-light-darkmode));
+      --background-blue-light-color: light-dark(var(--background-blue-light), var(--background-blue-light-darkmode));
 
-      --card-border-color: light-dark(var(--card-border),var(--card-border-darkmode));
+      --card-border-color: light-dark(var(--card-border), var(--card-border-darkmode));
 
       /*rainbow button colors*/
-      --button-rainbow-green-color: light-dark(var(--button-rainbow-green),var(--button-rainbow-green-darkmode));
-      --button-rainbow-pink-color: light-dark(var(--button-rainbow-pink),var(--button-rainbow-pink-darkmode));
-      --button-rainbow-blue-color: light-dark(var(--button-rainbow-blue),var(--button-rainbow-blue-darkmode));
+      --button-rainbow-green-color: light-dark(var(--button-rainbow-green), var(--button-rainbow-green-darkmode));
+      --button-rainbow-pink-color: light-dark(var(--button-rainbow-pink), var(--button-rainbow-pink-darkmode));
+      --button-rainbow-blue-color: light-dark(var(--button-rainbow-blue), var(--button-rainbow-blue-darkmode));
 
-      --button-hover-shadow-color: light-dark(var(--button-hover-shadow),var(--button-hover-shadow-darkmode));
+      --button-hover-shadow-color: light-dark(var(--button-hover-shadow), var(--button-hover-shadow-darkmode));
 
       /*text colors*/
-      --text-default-bomba-color: light-dark(var(--text-default-bomba),var(--text-default-bomba-darkmode));
-      --text-green-color: light-dark(var(--text-green),var(--text-green-darkmode));
-      --text-blue-color: light-dark(var(--text-blue),var(--text-blue-darkmode));
-      --text-pink-color: light-dark(var(--text-pink),var(--text-pink-darkmode));
+      --text-default-bomba-color: light-dark(var(--text-default-bomba), var(--text-default-bomba-darkmode));
+      --text-green-color: light-dark(var(--text-green), var(--text-green-darkmode));
+      --text-blue-color: light-dark(var(--text-blue), var(--text-blue-darkmode));
+      --text-pink-color: light-dark(var(--text-pink), var(--text-pink-darkmode));
 
    }
+
    /* MARK: buttons kleuren */
    * {
       box-sizing: border-box;
    }
 
-   body{
+   body {
       font-family: "Tasa-Orbiter 400", sans-serif;
       background-color: var(--site-background-color);
    }
@@ -196,10 +202,10 @@
 
    .backgroundcolor {
       background-color: var(--site-background);
-      color:black;
+      color: black;
    }
 
-   
+
 
    .rainbowbuttons button {
       border-radius: 1rem;
@@ -227,6 +233,7 @@
       }
 
    }
+
    /* MARK: formulier */
 
    /* MARK: toggle */
