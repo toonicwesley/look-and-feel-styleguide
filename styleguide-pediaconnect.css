@@ -33,8 +33,6 @@
    font-weight: 800;
 }
 
-@layer styleguide, mystylesheet;
-
 @layer styleguide {
 
    /* Schrijf hier de verschillende stijlen, die
