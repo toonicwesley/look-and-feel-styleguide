@@ -45,7 +45,6 @@
 
    /* Kleuren */
    :root {
-      color-scheme: light dark;
 
       /* color-scheme background */
       --site-background: hsl(0 0% 95%);
@@ -119,7 +118,7 @@
 
 
       /* color-scheme set hover darkmode */
-      --button-hover-shadow-darkmode: hsl(from var(--button-hover-shadow) h s calc(l - 57%));
+      --button-hover-shadow-darkmode: hsl(from var(--button-hover-shadow)h s calc(l - 57%));
 
       /* Kleuren typografie */
       --text-default-bomba: hsl(0, 3%, 19%);
@@ -135,7 +134,7 @@
       --text-pink-darkmode: var(--text-pink);
 
 
-
+      color-scheme: light dark;
       /*benodigde kleuren properties voor light en dark mode*/
       /*background*/
       --site-background-color: light-dark(var(--site-background), var(--site-background-darkmode));
