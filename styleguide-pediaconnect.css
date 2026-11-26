@@ -45,15 +45,16 @@
 
    /* Kleuren */
    :root {
+      color-scheme: light dark;
 
       /* color-scheme background */
-      --site-background: hsl(0, 0%, 90%);
+      --site-background: hsl(0 0% 95%);
       --footer-background: hsl(0, 0%, 100%);
 
 
       /* color-scheme background darkmode */
-      --site-background-darkmode: hsl(from var(--site-background), h calc(s + 3) calc(l - 70));
-      --footer-background-darkmode: hsl(from var(--footer-background) h calc(s + 2) calc(l - 7));
+      --site-background-darkmode: hsl(from var(--site-background), h calc(s + 3%) calc(l - 70%));
+      --footer-background-darkmode: hsl(from var(--footer-background) h calc(s + 2%) calc(l - 7%));
 
       /* color-scheme icons set */
       --icon-light: hsl(0, 0%, 100%);
@@ -80,27 +81,27 @@
 
 
       /* color-scheme icons set darkmode */
-      --icon-light-darkmode: hsl(from var(--icon-light) h calc(s + 1) calc(l - 40));
-      --icon-medium-darkmode: hsl(from var(--icon-medium) h calc(s + 2) calc(l - 50));
-      --icon-dark-darkmode: hsl(from var(--icon-dark) h calc(s - 3) calc(l + 76));
+      --icon-light-darkmode: hsl(from var(--icon-light) h calc(s + 1%) calc(l - 40%));
+      --icon-medium-darkmode: hsl(from var(--icon-medium) h calc(s + 2%) calc(l - 50%));
+      --icon-dark-darkmode: hsl(from var(--icon-dark) h calc(s - 3%) calc(l + 76%));
 
-      --icon-light-blue-darkmode: hsl(from var(--icon-light-blue) h calc(s - 13) calc(l - 19));
-      --icon-light-green-darkmode: hsl(from var(--icon-light-green)h calc(s - 4) calc(l - 20));
-      --icon-light-pink-darkmode: hsl(from var(--icon-light-pink)h calc(s - 1) calc(l - 6));
+      --icon-light-blue-darkmode: hsl(from var(--icon-light-blue) h calc(s - 13%) calc(l - 19%));
+      --icon-light-green-darkmode: hsl(from var(--icon-light-green)h calc(s - 4%) calc(l - 20%));
+      --icon-light-pink-darkmode: hsl(from var(--icon-light-pink)h calc(s - 1%) calc(l - 6%));
 
-      --icon-dark-blue-darkmode: hsl(from var(--icon-dark-blue)h calc(s + 28) calc(l + 25));
-      --icon-dark-green-darkmode: hsl(from var(--icon-dark-green)h calc(s + 7) calc(l + 60));
-      --icon-dark-pink-darkmode: hsl(from var(--icon-dark-pink)h calc(s + 1) calc(l + 28));
+      --icon-dark-blue-darkmode: hsl(from var(--icon-dark-blue)h calc(s + 28%) calc(l + 25%));
+      --icon-dark-green-darkmode: hsl(from var(--icon-dark-green)h calc(s + 7%) calc(l + 60%));
+      --icon-dark-pink-darkmode: hsl(from var(--icon-dark-pink)h calc(s + 1%) calc(l + 28%));
 
-      --background-pink-darkmode: hsl(from var(--background-pink)h calc(s - 32) calc(l - 20));
-      --background-green-darkmode: hsl(from var(--background-green)h calc(s - 14) calc(l - 29));
-      --background-blue-darkmode: hsl(from var(--background-blue)h calc(s - 28) calc(l - 26));
+      --background-pink-darkmode: hsl(from var(--background-pink)h calc(s - 32%) calc(l - 20%));
+      --background-green-darkmode: hsl(from var(--background-green)h calc(s - 14%) calc(l - 29%));
+      --background-blue-darkmode: hsl(from var(--background-blue)h calc(s - 28%) calc(l - 26%));
 
-      --background-pink-light-darkmode: hsl(from var(--background-pink-light)h calc(s - 13) calc(l - 45));
-      --background-green-light-darkmode: hsl(from var(--background-green-light)h calc(s - 7) calc(l - 60));
-      --background-blue-light-darkmode: hsl(from var(--background-blue-light)h calc(s - 15) calc(l - 10));
+      --background-pink-light-darkmode: hsl(from var(--background-pink-light)h calc(s - 13%) calc(l - 45%));
+      --background-green-light-darkmode: hsl(from var(--background-green-light)h calc(s - 7%) calc(l - 60%));
+      --background-blue-light-darkmode: hsl(from var(--background-blue-light)h calc(s - 15%) calc(l - 10%));
 
-      --card-border-darkmode: light-dark(var(--card-border)h calc(s + 3) calc(l -62));
+      --card-border-darkmode: hsl(from var(--card-border)h calc(s + 3%) calc(l -62%));
 
       /* color-scheme set rainbow buttons*/
       --button-rainbow-green: hsl(168 47% 84%);
@@ -109,16 +110,16 @@
 
 
       /* color-scheme set rainbow buttons darkmode*/
-      --button-rainbow-green-darkmode: hsl(from var(--button-rainbow-green) h s calc(l - 50));
-      --button-rainbow-pink-darkmode: hsl(from var(--button-rainbow-pink) h s calc(l - 50));
-      --button-rainbow-blue-darkmode: hsl(from var(--button-rainbow-blue) h s calc(l - 50));
+      --button-rainbow-green-darkmode: hsl(from var(--button-rainbow-green) h s calc(l - 50%));
+      --button-rainbow-pink-darkmode: hsl(from var(--button-rainbow-pink) h s calc(l - 50%));
+      --button-rainbow-blue-darkmode: hsl(from var(--button-rainbow-blue) h s calc(l - 50%));
 
       /* color-scheme set hover */
       --button-hover-shadow: hsl(0, 0%, 76%);
 
 
       /* color-scheme set hover darkmode */
-      --button-hover-shadow-darkmode: hsl(var(--button-hover-shadow)h s calc(l - 57));
+      --button-hover-shadow-darkmode: hsl(from var(--button-hover-shadow)h s calc(l - 57%));
 
       /* Kleuren typografie */
       --text-default-bomba: hsl(0, 3%, 19%);
@@ -128,7 +129,7 @@
 
 
       /* Kleuren typografie darkmode */
-      --text-default-bomba-darkmode: hsl(from var(--text-default-bomba)h calc(s - 3) calc(l - 76));
+      --text-default-bomba-darkmode: hsl(from var(--text-default-bomba)h calc(s - 3%) calc(l - 76%));
       --text-green-darkmode: var(--text-green);
       --text-blue-darkmode: var(--text-blue);
       --text-pink-darkmode: var(--text-pink);
